@@ -1,34 +1,42 @@
-Usage
-=====
+========================
+Пример документации Sphinx
+========================
 
-.. _installation:
+.. toctree::
+   :maxdepth: 2
+   :caption: Содержание:
 
-Installation
-------------
+Введение
+=========
 
-To use Lumache, first install it using pip:
+Это пример документации, созданной с использованием Sphinx и reStructuredText. Здесь мы можем вставлять различные разделы и подразделы, добавлять ссылки на другие файлы, создавать списки и многое другое.
 
-.. code-block:: console
+Подраздел
+-----------
 
-   (.venv) $ pip install lumache
+Это пример подраздела в нашей документации. Мы можем добавлять здесь более подробную информацию о каком-либо аспекте нашего проекта.
 
-Creating recipes
-----------------
+Список
+------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Мы также можем создавать списки:
+- Пункт 1
+- Пункт 2
+- Пункт 3
 
-.. autofunction:: lumache.get_random_ingredients
+Ссылки
+------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Мы можем добавлять ссылки на внешние ресурсы, такие как `официальный сайт Sphinx <https://www.sphinx-doc.org>`_.
 
-.. autoexception:: lumache.InvalidKindError
+Код
+------
 
-For example:
+Мы можем вставлять код в нашу документацию:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+.. code-block:: python
 
+   def hello_world():
+       print("Hello, world!")
+
+Это простой пример использования reStructuredText для написания документации с помощью Sphinx.
