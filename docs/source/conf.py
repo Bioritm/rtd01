@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Nau'
 copyright = '2024, NauEngine'
 author = ''
 
