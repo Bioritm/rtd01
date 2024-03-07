@@ -37,7 +37,6 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
-    'autodocsumm',
     'sphinx.ext.autosummary',
     'sphinx.ext.autodoc.typehints',
     'sphinx.ext.graphviz',
