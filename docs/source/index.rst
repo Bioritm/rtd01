@@ -10,9 +10,9 @@ Content:
 .. toctree::
    :maxdepth: 1
 
-   Введение/index
-   Установка и настройка/index
-   Основы работы в редакторе/index
+   intro/index
+   basic/index
+   installation/index
 
 ** NAU ENGINE** Бесплатный игровой движок для твоих лучших проектов
 
