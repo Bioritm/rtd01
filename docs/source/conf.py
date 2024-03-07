@@ -20,7 +20,7 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 # -- Project information -----------------------------------------------------
 
 project = 'NAU ENGINE'
-copyright = '2024-{}'.format(datetime.datetime.now().year)
+copyright = '{}'.format(datetime.datetime.now().year)
 author = 'NAU ENGINE'
 
 # The full version, including alpha/beta/rc tags
