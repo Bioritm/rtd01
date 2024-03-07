@@ -11,9 +11,9 @@ Content:
 .. toctree::
    :maxdepth: 1
 
-   intro/index
-   basic/index
-   installation/index
+   ./intro/index
+   ./basic/index
+   ./installation/index
 
 Бесплатный игровой движок для твоих лучших проектов
 
