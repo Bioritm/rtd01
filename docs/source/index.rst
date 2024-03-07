@@ -6,7 +6,7 @@ NAU ENGINE
 
    | |logo|
 
-Content:
+Оглавление:
 ========
 .. toctree::
    :maxdepth: 1
