@@ -10,6 +10,8 @@
 .. image:: https://i.postimg.cc/LX6KSsF5/image1.jpg
    :alt: Интерфейс NAU ENGINE
 
+.. tabularcolumns:: |p{1cm}|p{7cm}|
+
 .. list-table:: Описание интерфейса NAU ENGINE
    :header-rows: 1
 
@@ -47,6 +49,8 @@
 1. Ленточное меню
 ------------------
 .. image:: https://i.postimg.cc/Hxz48RVh/1t.png
+
+.. tabularcolumns:: |p{3cm}|p{4cm}|
 
 .. list-table:: 
    :header-rows: 1
@@ -107,7 +111,7 @@
 
 .. image:: https://i.postimg.cc/QxpFSPQ4/4t.png
 
-.. rst-class:: full-width
+.. tabularcolumns:: |p{7cm}|p{1cm}|
 
 .. list-table:: Описание интерфейса управления режимом воспроизведения NAU ENGINE
    :header-rows: 1
