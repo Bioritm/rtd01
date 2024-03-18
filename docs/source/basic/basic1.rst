@@ -8,6 +8,6 @@
 
 
 
-.. image:: ../../img/gefest_work.png
-   :alt: Logo of GEFEST framework
+.. image:: ../../static/image1.png
+   :alt: NAU ENGINES
 
