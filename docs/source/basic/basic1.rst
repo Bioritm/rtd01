@@ -54,7 +54,6 @@
 .. list-table:: 
   :header-rows: 1
   :class: longtable
-  :widths: 1 1
 
    * - **Наименование**
    - **Обозначение**
