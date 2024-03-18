@@ -11,3 +11,9 @@
    :alt: Интерфейс NAU ENGINE
 
 .. image:: static/image1.png
+
+.. image:: https://imgbly.com/ib/Dqtmt3HVDd
+
+.. image:: https://i.postimg.cc/LX6KSsF5/image1.jpg
+
+[![image1.jpg](https://i.postimg.cc/LX6KSsF5/image1.jpg)](https://postimg.cc/ns5wYpzf)
