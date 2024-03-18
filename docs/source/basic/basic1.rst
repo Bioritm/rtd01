@@ -48,8 +48,6 @@
 ------------------
 .. image:: https://i.postimg.cc/Hxz48RVh/1t.png
 
-.. rst-class:: full-width
-
 .. list-table:: Описание интерфейса NAU ENGINE
    :header-rows: 1
    * - **Наименование**
