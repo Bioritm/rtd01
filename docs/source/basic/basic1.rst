@@ -12,9 +12,9 @@
    :alt: Интерфейс NAU ENGINE
 
 .. list-table:: Описание интерфейса NAU ENGINE
-   :header-rows: 1
-   :class: longtable
-   :widths: 1 1
+  :header-rows: 1
+  :class: longtable
+  :widths: 1 1
 
    * - **Цифра**
      - **Наименование**
@@ -52,9 +52,9 @@
 .. image:: https://i.postimg.cc/Hxz48RVh/1t.png
 
 .. list-table:: 
-   :header-rows: 1
-   :class: longtable
-   :widths: 1 1
+  :header-rows: 1
+  :class: longtable
+  :widths: 1 1
 
    * - **Наименование**
      - **Обозначение**
