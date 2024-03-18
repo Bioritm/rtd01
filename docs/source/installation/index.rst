@@ -6,5 +6,6 @@
    :glob:
    :maxdepth: 2
 
-   ./instNAUENGINE/index
-   
+   ./in1
+   ./sett
+   ./settproj

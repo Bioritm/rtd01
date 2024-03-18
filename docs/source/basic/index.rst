@@ -8,3 +8,4 @@
 
    ./basic1
    ./newproj
+   ./struct
