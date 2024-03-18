@@ -10,12 +10,10 @@
 .. image:: https://i.postimg.cc/LX6KSsF5/image1.jpg
    :alt: Интерфейс NAU ENGINE
 
-.. tabularcolumns:: |p{1cm}|p{7cm}|
-
 .. list-table:: Описание интерфейса NAU ENGINE
-   :header-rows: 1
-   :class: longtable
-   :widths: 1 1
+  :header-rows: 1
+  :class: longtable
+  :widths: 1 1
 
    * - **Цифра**
      - **Наименование**
@@ -52,10 +50,10 @@
 ------------------
 .. image:: https://i.postimg.cc/Hxz48RVh/1t.png
 
-.. tabularcolumns:: |p{3cm}|p{4cm}|
-
 .. list-table:: 
-   :header-rows: 1
+  :header-rows: 1
+  :class: longtable
+  :widths: 1 1
 
    * - **Наименование**
      - **Обозначение**
@@ -80,7 +78,7 @@
    * - **Справка**
      - Окно с информацией о текущей версии Nau Editor
 
-2. Сцена (Scenes)
+1. Сцена (Scenes)
 ------------------
 
 На вкладке **Сцена** перечислены все объекты, добавленные на сцену.
