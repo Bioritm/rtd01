@@ -8,6 +8,6 @@
 
 
 
-.. image:: ../../static/image1.png
+.. image:: ./docs/static/image1.png
    :alt: NAU ENGINES
 
