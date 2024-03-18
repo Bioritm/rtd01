@@ -7,4 +7,4 @@
    :maxdepth: 2
 
    ./basic1
-   ./newproject
+   ./newproj
