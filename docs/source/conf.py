@@ -64,6 +64,38 @@ StandaloneHTMLBuilder.supported_image_types = [
 html_theme = "sphinx_rtd_theme"
 # html_logo = "/docs/img/gefest_logo.png"
 
+# Настройка параметров оформления для темы Sphinx RTD
+html_theme_options = {
+    # Отображать только логотип, без заголовка
+    'logo_only': True,
+    # Показывать версию проекта
+    'display_version': True,
+    # Заголовок сайта (если не указан 'logo_only')
+    'collapse_navigation': False,
+    # Отображать навигацию во всплывающем окне при наведении
+    'sticky_navigation': True,
+    # Отключить автоматическое раскрытие пунктов навигации
+    'navigation_depth': 3,
+    # Отображать элементы навигации, которые обычно скрыты
+    'includehidden': True,
+    # Показывать только заголовки в навигации
+    'titles_only': False,
+    # Добавить favicon в HTML-документацию
+    'favicon': 'path/to/favicon.ico',
+    # Добавить пользовательскую CSS для темы
+    'css_files': [
+        'path/to/custom.css',
+    ],
+    # Добавить ссылку на исходный код на GitHub
+    'github_url': 'https://github.com/Bioritm/rtd01/tree/main',
+    # Добавить иконку GitHub в навигационной панели
+    'github_user': 'username',
+    'github_repo': 'project',
+    'github_type': 'star',
+    'github_banner': True,
+}
+
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
