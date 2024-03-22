@@ -56,8 +56,9 @@ StandaloneHTMLBuilder.supported_image_types = [
     'image/png',
     'image/jpeg'
 ]
-html_theme = "Book"
+html_theme = "sphinx_book_theme"
 # html_logo = "/static/photo2.png"
+
 
 # Настройка параметров оформления для темы Sphinx RTD
 html_theme_options = {
