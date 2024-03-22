@@ -26,7 +26,7 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_book_theme',
+    'sphinx_rtd_theme',
     'sphinx.ext.autodoc',
     'sphinx.ext.coverage',
     'sphinx.ext.napoleon',
@@ -56,9 +56,8 @@ StandaloneHTMLBuilder.supported_image_types = [
     'image/png',
     'image/jpeg'
 ]
-html_theme = "sphinx_book_theme"
+html_theme = "sphinx_rtd_theme"
 # html_logo = "/static/photo2.png"
-
 
 # Настройка параметров оформления для темы Sphinx RTD
 html_theme_options = {
