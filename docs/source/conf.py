@@ -38,7 +38,6 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.mathjax',
     'sphinx.ext.autosummary',
-    'sphinxcontrib.programoutput',
     'sphinx.ext.autodoc.typehints',
     'sphinx.ext.graphviz',
 ]
