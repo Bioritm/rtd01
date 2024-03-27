@@ -50,7 +50,9 @@
 ------------------
 .. image:: https://i.postimg.cc/Hxz48RVh/1t.png
 
-<table class="longtable">
+.. raw:: html
+
+   <table style="width:100%">
   <thead>
     <tr>
       <th><strong>Наименование</strong></th>
@@ -101,7 +103,7 @@
   </tbody>
 </table>
 
-2. Сцена (Scenes)
+1. Сцена (Scenes)
 ------------------
 
 На вкладке **Сцена** перечислены все объекты, добавленные на сцену.
