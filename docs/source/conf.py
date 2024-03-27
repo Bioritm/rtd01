@@ -9,10 +9,15 @@ import datetime
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 from sphinx.builders.html import StandaloneHTMLBuilder
-import subprocess
 
 # Doxygen
-subprocess.call('doxygen docs/Doxyfile', shell=True)
+import subprocess
+
+# Полный путь к файлу Doxyfile
+doxyfile_path = r'C:/Users/anton.borisov/Desktop/rst/rtd01/docs/Doxyfile'
+
+# Вызов Doxygen с указанием полного пути до файла Doxyfile
+subprocess.call(f'doxygen {doxyfile_path}', shell=True)
 
 # -- Project information -----------------------------------------------------
 
