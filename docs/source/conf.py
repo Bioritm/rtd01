@@ -7,11 +7,11 @@
 import os
 import datetime
 import sys
+import subprocess
 sys.path.insert(0, os.path.abspath('../..'))
 from sphinx.builders.html import StandaloneHTMLBuilder
 
 # Doxygen
-import subprocess
 
 # Полный путь к файлу Doxyfile
 doxyfile_path = r'C:/Users/anton.borisov/Desktop/rst/rtd01/docs/Doxyfile'
