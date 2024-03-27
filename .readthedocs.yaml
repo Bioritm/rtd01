@@ -12,5 +12,3 @@ python:
 sphinx:
   configuration: docs/source/conf.py
 
-doxygen:
-  configuration: docs/Doxyfile.in
