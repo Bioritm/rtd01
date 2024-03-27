@@ -12,8 +12,8 @@
    :alt: Интерфейс NAU ENGINE
 
 .. list-table:: Описание интерфейса NAU ENGINE
+   :widths: 10 30 60
    :header-rows: 1
-   :class: longtable
 
    * - **Цифра**
      - **Наименование**
