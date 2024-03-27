@@ -10,6 +10,8 @@ import sys
 sys.path.insert(0, os.path.abspath('../..'))
 from sphinx.builders.html import StandaloneHTMLBuilder
 
+# Doxygen
+subprocess.call('doxygen Doxyfile.in', shell=True)
 
 # -- Project information -----------------------------------------------------
 
@@ -35,6 +37,14 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.autodoc.typehints',
     'sphinx.ext.graphviz',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.todo',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx_sitemap',
+    'sphinx.ext.inheritance_diagram',
+    'breathe',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -43,7 +53,10 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['_build']
+
+highlight_language = ['c++']
+
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -132,3 +145,13 @@ autoclass_content = 'class'
 autodoc_typehints = 'signature'
 autodoc_typehints_format = 'short'
 autodoc_mock_imports = ['objgraph', 'memory_profiler', 'gprof2dot', 'snakeviz']
+
+# -- Breathe configuration -------------------------------------------------
+
+breathe_projects = {
+	"NAU ENGINE": "'_build'/xml/"
+}
+breathe_default_project = "NAU ENGINE"
+breathe_default_members = ('members', 'undoc-members')
+
+
