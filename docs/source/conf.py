@@ -14,7 +14,7 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 # Doxygen
 
 # Полный путь к файлу Doxyfile
-doxyfile_path = r'C:/Users/anton.borisov/Desktop/rst/rtd01/docs/Doxyfile.in'
+doxyfile_path = os.path.abspath('../docs/Doxyfile.in')
 
 # Вызов Doxygen с указанием полного пути до файла Doxyfile
 subprocess.call(f'doxygen {doxyfile_path}', shell=True)
