@@ -50,9 +50,31 @@
 ------------------
 .. image:: https://i.postimg.cc/Hxz48RVh/1t.png
 
-.. raw:: html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблица</title>
+    <style>
+        .longtable {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .longtable, .longtable th, .longtable td {
+            border: 1px solid black;
+        }
+        .longtable th, .longtable td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
 
-<table style="width:100%">
+<table class="longtable">
   <thead>
     <tr>
       <th><strong>Наименование</strong></th>
@@ -102,6 +124,10 @@
     </tr>
   </tbody>
 </table>
+
+</body>
+</html>
+
 
 2. Сцена (Scenes)
 ------------------
@@ -256,20 +282,3 @@ Cовокупность настроек параметров выделенны
 
 .. image:: https://i.postimg.cc/Bbk4Q310/9T.png
    :alt: Build
-
-
-.. raw:: html
-
-   <table style="width:100%">
-     <tr>
-       <th>Цифра</th>
-       <th>Наименование</th>
-       <th>Описание</th>
-     </tr>
-     <tr>
-       <td>1</td>
-       <td>Ленточное меню</td>
-       <td>Меню для доступа к командам...</td>
-     </tr>
-     <!-- Остальные строки таблицы -->
-   </table>
