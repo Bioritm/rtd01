@@ -52,7 +52,7 @@
 
 .. raw:: html
 
-   <table style="width:100%">
+<table style="width:100%">
   <thead>
     <tr>
       <th><strong>Наименование</strong></th>
@@ -103,7 +103,7 @@
   </tbody>
 </table>
 
-1. Сцена (Scenes)
+2. Сцена (Scenes)
 ------------------
 
 На вкладке **Сцена** перечислены все объекты, добавленные на сцену.
