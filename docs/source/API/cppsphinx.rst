@@ -1,7 +1,7 @@
 Пример API
 ===========
 
-.. doxygenclass:: example
+.. doxygenclass:: Example
     :project: NAU ENGINE
     :members:
     :private-members:
