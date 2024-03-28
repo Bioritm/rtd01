@@ -46,6 +46,68 @@
      - Сборка
      - Окно с фиксируемой информацией в логах при сборке проекта
 
+
+.. raw:: html
+
+    <style>
+        .nau-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .nau-table, .nau-table th, .nau-table td {
+            border: 1px solid #ddd;
+        }
+        .nau-table th, .nau-table td {
+            padding: 8px;
+            text-align: left;
+        }
+        .nau-table th {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .nau-table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .nau-table tbody tr:hover {
+            background-color: #eaeaea;
+        }
+        .nau-table th:first-child {
+            width: 10%;
+        }
+        .nau-table th:nth-child(2) {
+            width: 30%;
+        }
+        .nau-table th:nth-child(3) {
+            width: 60%;
+        }
+    </style>
+    <table class="nau-table">
+      <thead>
+        <tr>
+          <th><strong>Цифра</strong></th>
+          <th><strong>Наименование</strong></th>
+          <th><strong>Описание</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>1</strong></td>
+          <td>Ленточное меню</td>
+          <td>Меню для доступа к командам и функциям NAU ENGINE (сохранение, управление сценами, отображение окон и др.)</td>
+        </tr>
+        <tr>
+          <td><strong>2</strong></td>
+          <td>Сцена</td>
+          <td>Совокупность динамических и статических объектов, их настроек и общих настроек игрового мира</td>
+        </tr>
+        <!-- Другие строки таблицы -->
+      </tbody>
+    </table>
+
+
+
+
 1. Ленточное меню
 ------------------
 .. image:: https://i.postimg.cc/Hxz48RVh/1t.png
@@ -77,40 +139,6 @@
         }
     </style>
     <table class="custom-table">
-      <thead>
-        <tr>
-          <th><strong>Наименование</strong></th>
-          <th><strong>Обозначение</strong></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Проект</strong></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Сохранить проект</td>
-          <td>Сохранить изменения в проекте</td>
-        </tr>
-        <!-- Другие строки таблицы -->
-      </tbody>
-    </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-.. raw:: html
-
- <table class="longtable">
   <thead>
     <tr>
       <th><strong>Наименование</strong></th>
@@ -162,7 +190,7 @@
  </table>
 
 
-2. Сцена (Scenes)
+1. Сцена (Scenes)
 ------------------
 
 На вкладке **Сцена** перечислены все объекты, добавленные на сцену.
