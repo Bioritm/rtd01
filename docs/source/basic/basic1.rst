@@ -50,31 +50,9 @@
 ------------------
 .. image:: https://i.postimg.cc/Hxz48RVh/1t.png
 
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Таблица</title>
-    <style>
-        .longtable {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .longtable, .longtable th, .longtable td {
-            border: 1px solid black;
-        }
-        .longtable th, .longtable td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
+.. raw:: html
 
-<table class="longtable">
+ <table class="longtable">
   <thead>
     <tr>
       <th><strong>Наименование</strong></th>
@@ -123,10 +101,7 @@
       <td>Окно с информацией о текущей версии Nau Editor</td>
     </tr>
   </tbody>
-</table>
-
-</body>
-</html>
+ </table>
 
 
 2. Сцена (Scenes)
