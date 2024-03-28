@@ -2,7 +2,7 @@ Example API
 ===========
 
 .. doxygenclass:: example.h
-    :project: MyProject
+    :project: NAU ENGINE
     :members:
     :private-members:
     :undoc-members:
