@@ -433,27 +433,12 @@ Cовокупность настроек параметров выделенны
 .. image:: https://i.postimg.cc/t4PCJs5m/7T.png
    :alt: Scene Settings
 
-.. raw:: html
-
-    <img src="https://i.postimg.cc/t4PCJs5m/7T.png" alt="Scene Settings" style="width: 100px;" onclick="resizeImage(this);">
-
-    <script>
-    function resizeImage(image) {
-        if (image.style.width == "100px") {
-            image.style.width = "300px"; // Увеличить размер
-        } else {
-            image.style.width = "100px"; // Вернуть обратно
-        }
-    }
-    </script>
-
 
 Все скрипты в проекте располагаются в папке **/scripts** в корне проекта.
 
 Скрипты реализованы на языке **DaScript** и разбиты логически по файлам *.das.
 
 Для редактирования скриптов рекомендуется использовать **Visual Studio Code** c расширением **daScript**.
-
 
 Для добавления скрипта необходимо нажать на кнопку **+** и в папке **/scripts** выбрать файл в формате .das.
 
@@ -474,3 +459,8 @@ Cовокупность настроек параметров выделенны
 
 .. image:: https://i.postimg.cc/Bbk4Q310/9T.png
    :alt: Build
+
+
+
+.. image:: ../../static/image1.jpg
+   :alt: альтернативный текст
