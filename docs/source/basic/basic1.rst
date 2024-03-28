@@ -52,6 +52,64 @@
 
 .. raw:: html
 
+    <style>
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .custom-table, .custom-table th, .custom-table td {
+            border: 1px solid #ddd;
+        }
+        .custom-table th, .custom-table td {
+            padding: 8px;
+            text-align: left;
+        }
+        .custom-table th {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .custom-table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .custom-table tbody tr:hover {
+            background-color: #eaeaea;
+        }
+    </style>
+    <table class="custom-table">
+      <thead>
+        <tr>
+          <th><strong>Наименование</strong></th>
+          <th><strong>Обозначение</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Проект</strong></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Сохранить проект</td>
+          <td>Сохранить изменения в проекте</td>
+        </tr>
+        <!-- Другие строки таблицы -->
+      </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+.. raw:: html
+
  <table class="longtable">
   <thead>
     <tr>
