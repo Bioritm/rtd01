@@ -1,10 +1,7 @@
-===
-Тест 
-===
-.. doxygenfile:: cpp_doxygen_sphinx.hpp 
-   :project: NAU ENGINE
+Example API
+===========
 
-
-.. breathe:doxygenclass:: _api_foo
-   :project: NAU ENGINE
-   :members:
+.. automodule:: example
+    :members:
+    :undoc-members:
+    :show-inheritance:
