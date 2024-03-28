@@ -152,9 +152,9 @@ autodoc_mock_imports = ['objgraph', 'memory_profiler', 'gprof2dot', 'snakeviz']
 # -- Breathe configuration -------------------------------------------------
 
 breathe_projects = {
-	"NAU ENGINE": "docs/_build/xml"
+    "NAU ENGINE": "../_build/xml"
 }
-breathe_default_project = "NAU ENGINE"
+
 breathe_default_members = ('members', 'undoc-members')
 
 breathe_projects = {"MyProject": "../path/to/doxygen/xml"}

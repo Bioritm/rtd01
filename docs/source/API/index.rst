@@ -6,4 +6,5 @@ API
    :glob:
    :maxdepth: 2
 
- ./cpp_doxygen_sphinx
+  ./cppsphinx
+  
