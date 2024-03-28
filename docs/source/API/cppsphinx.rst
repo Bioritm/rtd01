@@ -1,5 +1,9 @@
-.. _api_foo:
+===========
 Пример API
-===
-.. doxygenfile:: example.h
-   :project: NAU ENGINE
+===========
+
+.. doxygenclass:: Example
+    :project: NAU ENGINE
+    :members:
+    :private-members:
+    :undoc-members:
