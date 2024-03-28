@@ -8,7 +8,7 @@
 
 При запуске проекта в **NAU ENGINE** открывается экранная форма:
 
-.. image:: https://i.postimg.cc/LX6KSsF5/image1.jpg
+.. image:: ../../static/image1.jpg
    :alt: Интерфейс NAU ENGINE
 
 .. raw:: html
@@ -459,8 +459,3 @@ Cовокупность настроек параметров выделенны
 
 .. image:: https://i.postimg.cc/Bbk4Q310/9T.png
    :alt: Build
-
-
-
-.. image:: ../../static/image1.jpg
-   :alt: альтернативный текст
