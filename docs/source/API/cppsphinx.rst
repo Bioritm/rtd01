@@ -2,8 +2,22 @@
 Пример API
 ===========
 
-.. doxygenclass:: Example
-    :project: NAU ENGINE
-    :members:
-    :private-members:
-    :undoc-members:
+/**
+ * \class MyClass
+ * \brief Краткое описание класса.
+ *
+ * Длинное описание класса. Детали реализации и примеры использования.
+ */
+class MyClass {
+    /**
+     * \brief Конструктор класса.
+     * \param param Описание параметра.
+     */
+    MyClass(int param);
+
+    /**
+     * \brief Метод для выполнения операции.
+     * \return Результат операции.
+     */
+    int doOperation();
+};
