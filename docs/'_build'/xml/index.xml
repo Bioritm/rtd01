@@ -5,6 +5,8 @@
     <member refid="class_example_1a97c3474b5661d788b6473340235ee836" kind="function"><name>Example</name></member>
     <member refid="class_example_1a7709197f852a1c463bb94d09c957d957" kind="function"><name>greet</name></member>
   </compound>
+  <compound refid="class_example_1_1h" kind="class"><name>Example::h</name>
+  </compound>
   <compound refid="example_8h" kind="file"><name>example.h</name>
   </compound>
   <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/anton.borisov/Desktop/rst/rtd01/src</name>
