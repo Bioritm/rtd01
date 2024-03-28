@@ -152,5 +152,5 @@ autodoc_mock_imports = ['objgraph', 'memory_profiler', 'gprof2dot', 'snakeviz']
 # -- Breathe configuration -------------------------------------------------
 
 breathe_projects = {
-    "NAU ENGINE": "../../'_build'/xml"
+    "NAU ENGINE": "../../'_build'/xml/index.xml"
 }
