@@ -1,7 +1,7 @@
-Example API
+Пример API
 ===========
 
-.. doxygenclass:: example.h
+.. doxygenclass:: example
     :project: NAU ENGINE
     :members:
     :private-members:

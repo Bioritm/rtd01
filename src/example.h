@@ -1,5 +1,5 @@
 /**
- * \class Example.h
+ * \class Example
  * \brief Пример класса для демонстрации документации API.
  *
  * Длинное описание класса Example...

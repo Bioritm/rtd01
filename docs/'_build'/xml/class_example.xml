@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
   <compounddef id="class_example" kind="class" language="C++" prot="public">
     <compoundname>Example</compoundname>
+    <includes local="no">example.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_example_1a34b8f484d9e657851c4235fb8f0b001a" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -69,8 +70,10 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Пример класса для демонстрации документации API. </para>
     </briefdescription>
     <detaileddescription>
+<para>Длинное описание класса <ref refid="class_example" kindref="compound">Example</ref>... </para>
     </detaileddescription>
     <location file="C:/Users/anton.borisov/Desktop/rst/rtd01/src/example.h" line="7" column="1" bodyfile="C:/Users/anton.borisov/Desktop/rst/rtd01/src/example.h" bodystart="7" bodyend="22"/>
     <listofallmembers>
