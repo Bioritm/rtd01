@@ -154,3 +154,6 @@ autodoc_mock_imports = ['objgraph', 'memory_profiler', 'gprof2dot', 'snakeviz']
 breathe_projects = {
     "NAU ENGINE": "docs/_build/xml"
 }
+
+breathe_default_project = "NAU ENGINE"
+breathe_default_members = ('members', 'undoc-members')
