@@ -433,6 +433,21 @@ Cовокупность настроек параметров выделенны
 .. image:: https://i.postimg.cc/t4PCJs5m/7T.png
    :alt: Scene Settings
 
+.. raw:: html
+
+    <img src="https://i.postimg.cc/t4PCJs5m/7T.png" alt="Scene Settings" style="width: 100px;" onclick="resizeImage(this);">
+
+    <script>
+    function resizeImage(image) {
+        if (image.style.width == "100px") {
+            image.style.width = "300px"; // Увеличить размер
+        } else {
+            image.style.width = "100px"; // Вернуть обратно
+        }
+    }
+    </script>
+
+
 Все скрипты в проекте располагаются в папке **/scripts** в корне проекта.
 
 Скрипты реализованы на языке **DaScript** и разбиты логически по файлам *.das.
