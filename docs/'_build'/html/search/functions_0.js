@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['say_5fhello_0',['say_hello',['../class_foo.html#aa7e9594508e27e63284583d0e0422209',1,'Foo']]]
+  ['example_0',['Example',['../class_example.html#a97c3474b5661d788b6473340235ee836',1,'Example']]]
 ];

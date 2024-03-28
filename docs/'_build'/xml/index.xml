@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
-  <compound refid="class_foo" kind="class"><name>Foo</name>
-    <member refid="class_foo_1aa7e9594508e27e63284583d0e0422209" kind="function"><name>say_hello</name></member>
+  <compound refid="class_example" kind="class"><name>Example</name>
+    <member refid="class_example_1a34b8f484d9e657851c4235fb8f0b001a" kind="variable"><name>name</name></member>
+    <member refid="class_example_1a97c3474b5661d788b6473340235ee836" kind="function"><name>Example</name></member>
+    <member refid="class_example_1a7709197f852a1c463bb94d09c957d957" kind="function"><name>greet</name></member>
   </compound>
-  <compound refid="cpp__doxygen__sphinx_8hpp" kind="file"><name>cpp_doxygen_sphinx.hpp</name>
-    <member refid="cpp__doxygen__sphinx_8hpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  <compound refid="example_8h" kind="file"><name>example.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>C:/Users/anton.borisov/Desktop/rst/rtd01/include</name>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/anton.borisov/Desktop/rst/rtd01/src</name>
   </compound>
 </doxygenindex>

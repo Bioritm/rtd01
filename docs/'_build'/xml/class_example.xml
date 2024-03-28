@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_example" kind="class" language="C++" prot="public">
+    <compoundname>Example</compoundname>
+    <includes local="no">example.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_example_1a34b8f484d9e657851c4235fb8f0b001a" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Example::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Example::name</qualifiedname>
+        <briefdescription>
+<para>Имя пользователя. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/anton.borisov/Desktop/rst/rtd01/src/example.h" line="21" column="17" bodyfile="C:/Users/anton.borisov/Desktop/rst/rtd01/src/example.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_example_1a97c3474b5661d788b6473340235ee836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Example::Example</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>Example</name>
+        <qualifiedname>Example::Example</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Конструктор, который инициализирует класс с именем. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Имя пользователя. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/anton.borisov/Desktop/rst/rtd01/src/example.h" line="13" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_example_1a7709197f852a1c463bb94d09c957d957" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Example::greet</definition>
+        <argsstring>() const</argsstring>
+        <name>greet</name>
+        <qualifiedname>Example::greet</qualifiedname>
+        <briefdescription>
+<para>Возвращает приветствие. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Строка с приветствием пользователя. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/anton.borisov/Desktop/rst/rtd01/src/example.h" line="19" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Пример класса для демонстрации документации API. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Длинное описание класса <ref refid="class_example" kindref="compound">Example</ref>... </para>
+    </detaileddescription>
+    <location file="C:/Users/anton.borisov/Desktop/rst/rtd01/src/example.h" line="7" column="1" bodyfile="C:/Users/anton.borisov/Desktop/rst/rtd01/src/example.h" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_example_1a97c3474b5661d788b6473340235ee836" prot="public" virt="non-virtual"><scope>Example</scope><name>Example</name></member>
+      <member refid="class_example_1a7709197f852a1c463bb94d09c957d957" prot="public" virt="non-virtual"><scope>Example</scope><name>greet</name></member>
+      <member refid="class_example_1a34b8f484d9e657851c4235fb8f0b001a" prot="private" virt="non-virtual"><scope>Example</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
