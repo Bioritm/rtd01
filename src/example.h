@@ -1,3 +1,5 @@
+#include "docs/source/API/cppsphinx.rst"
+
 /**
  * \class Example
  * \brief Пример класса для демонстрации документации API.
@@ -20,3 +22,4 @@ public:
 private:
     std::string name; ///< Имя пользователя.
 };
+
